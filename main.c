@@ -42,6 +42,7 @@ int main() {
 		}
 
 	}
+	free(p2Input);
 	printf("It only took you %hi attempt(s)\n", i);
 	return 0;
 }
