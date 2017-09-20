@@ -11,3 +11,6 @@ $(OBJS).o: $(OBJS).c
 
 clean:
 	rm -f gmn main.o
+
+install:
+	install gmn /usr/local/bin
